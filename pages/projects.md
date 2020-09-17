@@ -17,10 +17,10 @@ Our vision is deeply motivated by the idea of making science accessible for ever
 {% endcapture %}
 
 {% capture summary %}
-<span style="color: #666666;">[DAO][3], [biotic games][4], OSH, and beyond.</span>
+<span style="color: #666666;">DAO, [biotic games][3], OSH, and beyond.</span>
 
-[3]: https://en.wikipedia.org/wiki/Decentralized_autonomous_organization "Decentralized Autonomous Organization"
-[4]: https://pubs.rsc.org/en/content/articlelanding/2011/lc/c0lc00399a "go to I. H. Riedel-Kruse's article"
+[3]: https://pubs.rsc.org/en/content/articlelanding/2011/lc/c0lc00399a "go to I. H. Riedel-Kruse's article"
+*[DAO]: Decentralized Autonomous Organization
 *[OSH]: Open-Source Hardware
 {% endcapture %}{% include details.html %}
 
