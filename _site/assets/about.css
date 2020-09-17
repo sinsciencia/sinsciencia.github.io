@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body, html {
+  overflow-y: visible;
+  overflow-x: auto;
+}
+
+.wrapper_front {
+  display: grid;
+  grid-template-areas:
+    "sc_hd . mn";
+  grid-template-columns: 100px 1fr 100px;
+}
+
+.wrapper_back {
+  grid-template-rows: 150px auto 1fr;
+}
+/* Fixed rotated header */
+.sinsciencia_header h1 {
+  position: fixed;
+  left: -110px;
+  top: 140px;
+  transform: rotate(270deg);
+}
+
+.menu {
+  top: 30px;
+}
+
+.menu li {
+  /* Make the links appear below each other */
+  display: block;
+}
+
+.bg_img_container {
+  position: relative;
+  /*
+  background-image: url("../media/alfatculemborg.jpg");
+  background-origin: center;
+  background-clip: content-box;
+  background-size: 960px 640px;
+  */
+  display: block;
+  width: 960px;
+  height: 640px;
+  margin: auto;
+}

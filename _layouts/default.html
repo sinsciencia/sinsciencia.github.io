@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+  <body>
+    <div class="wrapper_front">
+      <div class="sinsciencia_header">
+        <h1> SINSCIENCIA </h1>
+      </div>
+      <div class="menu">
+        {% include navigation.html %}
+      </div>
+    </div>
+
+    <div class="wrapper_back">
+      <div class="chinese_header">
+        <h2> 南波的 {{ page.title }}</h2>
+      </div>
+      <div class="main_content">
+        {{ content }}
+        {% if page.url != "/" %}
+          <div class="backhome_container">
+            <a href="/">[back to home]</a>
+          </div>
+        {% endif %}
+      </div>
+      <div class="footer">
+        <div class="poppetje">
+          <p>&#x1F331;</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
