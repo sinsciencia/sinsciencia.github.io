@@ -37,6 +37,8 @@ kramdown:
 ################################################################################
 
 title: SC
+# tagline: "" # Short description 
+# logo: /assets/your-company-logo.png
 email: alf.lhomme@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   All people are welcome to wander around my digital safe space intended to fill
@@ -46,6 +48,7 @@ url: "https://sinsciencia.github.io" # the base hostname & protocol for your sit
 
 # Pugins
 plugins:
+  - jekyll-seo-tag
   - jemoji
 
 
