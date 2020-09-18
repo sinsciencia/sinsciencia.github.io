@@ -3,16 +3,11 @@
   -webkit-box-sizing: border-box;
 }
 
-body, html {
-  overflow-y: visible;
-  overflow-x: auto;
-}
-
 .wrapper_front {
   display: grid;
   grid-template-areas:
     "sc_hd . mn";
-  grid-template-columns: 100px 1fr 100px;
+  grid-template-columns: 100px auto 100px;
 }
 
 .wrapper_back {
@@ -35,16 +30,17 @@ body, html {
   display: block;
 }
 
-.bg_img_container {
+.about_img_container {
   position: relative;
-  /*
-  background-image: url("../media/alfatculemborg.jpg");
-  background-origin: center;
-  background-clip: content-box;
-  background-size: 960px 640px;
-  */
-  display: block;
+  width: 100vw;
+  max-width: 960px;
+  margin: auto;
+  overflow-x: auto;
+  overflow-y: visible;
+}
+
+.about_img_container img {
   width: 960px;
   height: 640px;
-  margin: auto;
+  cursor: pointer;
 }

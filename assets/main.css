@@ -179,7 +179,7 @@ ul, li {
     display: grid;
     grid-template-areas:
       "sc_hd . mn";
-    grid-template-columns: 100px 1fr 100px;
+    grid-template-columns: 100px auto 100px;
     z-index: 999;
   }
 
