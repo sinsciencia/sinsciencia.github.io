@@ -34,15 +34,15 @@ ul, li {
 }
 
 /* CSS grid areas for the front layer */
-.sinsciencia_header {grid-area: sc_hd;}
+#sinsciencia_header {grid-area: sc_hd;}
 .menu {grid-area: mn;}
 
 /* CSS grid areas for the back layer */
-.chinese_header {grid-area: cn_hd;}
-.main_content {grid-area: main;}
-.footer {grid-area: ft;}
+#chinese_header {grid-area: cn_hd;}
+#main_content {grid-area: main;}
+#footer {grid-area: ft;}
 
-.wrapper_front {
+#wrapper_front {
   display: grid;
   grid-template-areas:
     "sc_hd"
@@ -51,7 +51,7 @@ ul, li {
   grid-template-rows: auto auto 1fr;
 }
 
-.wrapper_back {
+#wrapper_back {
   display: grid;
   grid-template-areas:
     "cn_hd"
@@ -62,7 +62,7 @@ ul, li {
 }
 
 /* Fixed header */
-.sinsciencia_header h1 {
+#sinsciencia_header h1 {
   padding: 10px;
   font-size: 50px;
   color: #fff;
@@ -102,13 +102,13 @@ ul, li {
 .menu li a.active {
   font-weight: bold;
 }
-.chinese_header {
+#chinese_header {
   /* If overflow is not set to hidden, set max width of the header below so it
   doesn't generate an empty column to the right of the webpage. */
   /*overflow-x: hidden;*/
 }
 
-.chinese_header h2 {
+#chinese_header h2 {
   position: relative;
   padding: 10px;
   width: 250px;
@@ -118,7 +118,7 @@ ul, li {
 
 
 /* Main */
-.main_content {
+#main_content {
 }
 
 .txt_container {
@@ -143,12 +143,12 @@ ul, li {
   max-width: 700px;
 }
 
-.footer {
+#footer {
   text-align: center;
   background-color: #fbe37a;
 }
 
-.poppetje:active {
+p.poppetje:active {
   animation: spin 2s ease-in-out 1;
   -webkit-animation: spin 2s ease-in-out 1;
   -moz-animation: spin 2s ease-in-out 1;
@@ -170,13 +170,13 @@ ul, li {
     display: block;
   }
 
-  .wrapper_back {
+  #wrapper_back {
     grid-template-rows: 100px auto 1fr;
   }
 }
 
 @media only screen and (min-width: 900px) {
-  .wrapper_front {
+  #wrapper_front {
     display: grid;
     grid-template-areas:
       "sc_hd . mn";
@@ -184,12 +184,12 @@ ul, li {
     z-index: 999;
   }
 
-  .wrapper_back {
+  #wrapper_back {
     grid-template-rows: 50px auto 1fr;
   }
 
   /* Fixed rotated header */
-  .sinsciencia_header h1 {
+  #sinsciencia_header h1 {
     position: fixed;
     left: -110px;
     top: 140px;

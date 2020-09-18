@@ -12,13 +12,13 @@ form {
 }
 
 .feedback-input {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: inherit;
   font-weight:500;
   border-radius: 5px;
-  line-height: 22px;
+  line-height: 23px;
   background-color: transparent;
-  border:2px solid #5c8a56;
+  border: 2px solid #5c8a56;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -35,19 +35,19 @@ textarea {
 }
 
 [type="submit"] {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#5c8a56;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
+  background: #5c8a56;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+  margin-top: -5px;
+  font-weight: 700;
 }
 
 [type="submit"]:hover { background:#93cf6d; }
