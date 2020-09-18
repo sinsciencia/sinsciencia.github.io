@@ -3,32 +3,6 @@
   -webkit-box-sizing: border-box;
 }
 
-.wrapper_front {
-  display: grid;
-  grid-template-areas:
-    "sc_hd . mn";
-  grid-template-columns: 100px auto 100px;
-}
-
-.wrapper_back {
-  grid-template-rows: 150px auto 1fr;
-}
-/* Fixed rotated header */
-.sinsciencia_header h1 {
-  position: fixed;
-  left: -110px;
-  top: 140px;
-  transform: rotate(270deg);
-}
-
-.menu {
-  top: 30px;
-}
-
-.menu li {
-  /* Make the links appear below each other */
-  display: block;
-}
 
 .about_img_container {
   position: relative;
