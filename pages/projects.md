@@ -4,6 +4,23 @@ title: projects
 permalink: /:basename/
 ---
 
+# Tracking _Paenibacillus vortex_ bacteria in time-lapse microscopy images
+
+{% capture details %}
+Several bacterial species can form complicated growth patterns on a wide variety of environmental conditions. Because the development of such complex structures requires self-organization and cooperative behavior of individual cells, the study of microbial pattern formation has been a basis for understanding intricate biological and social phenomena such as multicellularity.
+
+_P. vortex_ generates swarming patterns with leading groups of cells containing tens to thousands of bacteria that cooperatively whirl around a common center. These vortices expand in size and move outward as a unit, leaving behind a trail -the vortex branch-. Although vortices are easy to identify, its dynamics are quite complicated and include attraction, repulsion, merging, and splitting; hence the task of tracking these moving structures imposes a challenge that is interdisciplinary at its core.
+
+This project aims to explore the use of [**optical flow**][6] to identify swarming structures in spatial time series data of microbial dynamics, which are then sequentially mapped to statistical models that can help us to develop some understanding of these bacteria's motility.
+
+[6]: https://en.wikipedia.org/wiki/Optical_flow "i.e. motion field between two image frames"
+{% endcapture %}
+
+{% capture summary %}
+<span style="color: #666666;">Optical Flow & Particle Filter.</span>
+{% endcapture %}{% include details.html %}
+
+---
 # The Swarm @ [biotexturas][1]{: .pretty_border}
 
 {% capture details %}
@@ -34,7 +51,7 @@ Our vision is deeply motivated by the idea of making science accessible for ever
 
 Homemade RaspiCam/Arduino-based digital microscope system capable of recording video and image capture (time-lapse microscopy) while robotically scanning a sample. The HomeScope as a whole package is not only a DIY biologist solution for developing robotic microscopy capabilities for the home laboratory but also a means to learn (and teach) subjects across disciplines.
 
-This open-source project is maintained collectively by biotexturas and collaborators.
+This open-source project is being developed collectively by biotexturas and collaborators.
 {% endcapture %}
 
 {% capture summary %}

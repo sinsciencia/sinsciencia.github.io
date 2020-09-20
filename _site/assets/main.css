@@ -30,7 +30,7 @@ a:hover {
 }
 
 ul, li {
-  list-style-type: none !important;
+  /*list-style-type: none !important;*/
 }
 
 /* CSS grid areas for the front layer */

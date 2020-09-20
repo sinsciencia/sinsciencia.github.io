@@ -6,7 +6,7 @@
         <link>http://localhost:4000</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
         <description>All people are welcome to wander around my digital safe space intended to fill the hole that detaching from social media leaves behind.</description>
-        <lastBuildDate>Fri, 18 Sep 2020 18:30:37 +0200</lastBuildDate>
+        <lastBuildDate>Sun, 20 Sep 2020 03:02:06 +0200</lastBuildDate>
         
         <item>
             <title>blog</title>
