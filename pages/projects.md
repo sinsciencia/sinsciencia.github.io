@@ -4,7 +4,7 @@ title: projects
 permalink: /:basename/
 ---
 
-# Tracking _Paenibacillus vortex_ bacteria in time-lapse microscopy images
+# Tracking _Paenibacillus vortex_ bacteria in time-lapse microscopy images @ [openFIESTA][5]
 
 {% capture details %}
 Several bacterial species can form complicated growth patterns on a wide variety of environmental conditions. Because the development of such complex structures requires self-organization and cooperative behavior of individual cells, the study of microbial pattern formation has been a basis for understanding intricate biological and social phenomena such as multicellularity.
@@ -19,6 +19,8 @@ This project aims to explore the use of [**optical flow**][6] to identify swarmi
 {% capture summary %}
 <span style="color: #666666;">Optical Flow & Particle Filter.</span>
 {% endcapture %}{% include details.html %}
+
+[5]: http://www.fiesta.tsinghua.edu.cn/ "Open Faculty for Innovation, Education, Science, Technology and Arts"
 
 ---
 # The Swarm @ [biotexturas][1]{: .pretty_border}
@@ -44,7 +46,7 @@ Our vision is deeply motivated by the idea of making science accessible for ever
 [1]: https://biotexturas.org "Collective of intelligent people, machines, and ecosystems"
 
 ---
-# [HomeScope][4]{: .pretty_border} <span>&#x1F52C;</span> @ [openFIESTA][5]
+# [HomeScope][4]{: .pretty_border} <span>&#x1F52C;</span>
 
 {% capture details %}
 ![HomeScope 3D frame](/assets/images/homescope.png){: .centered_img width="350px;"}
@@ -59,4 +61,3 @@ This open-source project is being developed collectively by biotexturas and coll
 {% endcapture %}{% include details.html %}
 
 [4]: http://homescope.biotexturas.org "DIY robotic microscope"
-[5]: http://www.fiesta.tsinghua.edu.cn/ "Open Faculty for Innovation, Education, Science, Technology and Arts"
