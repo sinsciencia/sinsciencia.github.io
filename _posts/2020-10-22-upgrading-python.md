@@ -24,7 +24,9 @@ pyenv global VERSION
 These are the libraries I normally use at the present time, and I use `pip` to manage them:
 
 ```shell
-pip install numpy matplotlib pandas opencv-python jupyterlab scikit-learn seaborn
+pip install numpy matplotlib pandas
+            opencv-python jupyterlab scipy
+            scikit-learn scikit-image seaborn
 ```
 
 ## Checking compatibility with Jupyter
