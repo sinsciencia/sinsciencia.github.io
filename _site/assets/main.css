@@ -148,7 +148,9 @@ ul, li {
   background-color: #fbe37a;
 }
 
-p.poppetje:active {
+
+
+.poppetje:active {
   animation: spin 2s ease-in-out 1;
   -webkit-animation: spin 2s ease-in-out 1;
   -moz-animation: spin 2s ease-in-out 1;
