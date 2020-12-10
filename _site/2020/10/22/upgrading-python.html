@@ -91,23 +91,30 @@
     <p>This how I currently keep myself updated in the ever growing world of Python.</p>
 
 <p>To manage multiple python versions I use pyenv:</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pyenv <span class="nb">install</span> <span class="nt">--list</span>
-pyenv <span class="nb">install </span>VERSION
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  pyenv <span class="nb">install</span> <span class="nt">--list</span>
+  pyenv <span class="nb">install </span>VERSION
 </code></pre></div></div>
 
 <p>(e.g. <code class="language-plaintext highlighter-rouge">pyenv install 3.9.0</code>)</p>
 
 <p>Then, to change the global python version use:</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pyenv global VERSION
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  pyenv global VERSION
 </code></pre></div></div>
 <p>(e.g. <code class="language-plaintext highlighter-rouge">pyenv global 3.9.0</code>)</p>
 
 <p>These are the libraries I normally use at the present time, and I use <code class="language-plaintext highlighter-rouge">pip</code> to manage them:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>numpy matplotlib pandas
-            opencv-python jupyterlab scipy
-            scikit-learn scikit-image seaborn
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  pip <span class="nb">install </span>numpy matplotlib pandas
+              opencv-python jupyterlab scipy
+              scikit-learn scikit-image seaborn
 </code></pre></div></div>
+
+<hr />
+<p><em>Note for myself:</em></p>
+
+<p><em>If installing python for the first time, remember to add <strong>.pyenv/bin</strong> directory to <code class="language-plaintext highlighter-rouge">$PATH</code> and <strong>pyenv init</strong> to the shell configuration as well.</em></p>
+
+<hr />
 
 <h2 id="checking-compatibility-with-jupyter">Checking compatibility with Jupyter</h2>
 
@@ -115,12 +122,12 @@ pyenv <span class="nb">install </span>VERSION
 
 <p>To check which version of python jupyter is actually using, open a console inside jupyter’s environment and type:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
-<span class="k">print</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">version</span><span class="p">)</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kn">import</span> <span class="nn">sys</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">version</span><span class="p">)</span>
 </code></pre></div></div>
 
 <h2 id="uninstalling-old-versions">Uninstalling old versions</h2>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pyenv uninstall VERSION
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  pyenv uninstall VERSION
 </code></pre></div></div>
 
 <p>(e.g. <code class="language-plaintext highlighter-rouge">pyenv uninstall 3.8.5</code>)</p>
